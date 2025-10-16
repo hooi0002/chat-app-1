@@ -1,0 +1,66 @@
+body {
+    background-color: sandybrown;
+}
+
+.jumbotron {
+    background-color: black;
+    text-align: center;
+}
+
+.jumbotron * {
+    display: inline;
+}
+
+.jumbotron h1 {
+    font-size: 3vw;
+    color: white;
+    margin: 0;
+}
+
+.jumbotron button {
+    position: relative;
+    top: -10px;
+    margin-right: 40px;
+}
+
+.note {
+	border:1px solid gray;
+	width:200px;
+	height:200px;
+	padding:4px;
+	font-size:85%;
+	background:#FFFC7F;
+	-moz-box-shadow:2px 2px 2px #999999;
+	-webkit-box-shadow:2px 2px 2px #999999;
+	box-shadow:2px 2px 2px #999999;
+	position:absolute;
+}
+ 
+.toolbar {
+	text-align:right;
+	font-weight:bold;
+}
+ 
+/* Postick's button "delete" */
+.delete {
+	cursor:pointer;
+    font-size:120%;
+    margin-right: 10px;
+}
+ 
+/* Content to be editable inside the postick */
+.editable {
+	cursor:pointer;
+	height:180px;
+    margin:0 auto;
+    padding: 10px;
+	width:100%;
+	overflow:hidden;
+	position:relative;
+	-moz-text-shadow: 1px 1px 0px white;
+	text-shadow: 1px 1px 0px white;
+}
+ 
+.editable:hover{
+	border:1px dotted gray;
+}
